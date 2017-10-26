@@ -14,3 +14,9 @@
 Route::get('/', function () {
     return view('welcome');
 });
+
+
+Route::get('put', function() {
+    Storage::cloud()->put('test.txt', 'Hello World');
+    return 'File was saved to Google Drive';
+});

@@ -28,7 +28,7 @@ return [
     |
     */
 
-    'cloud' => 's3',
+    'cloud' => 'google',
 
     /*
     |--------------------------------------------------------------------------
@@ -61,6 +61,15 @@ return [
             'region' => 'your-region',
             'bucket' => 'your-bucket',
         ],
+        
+        'google' => [
+            'driver' => 'google',
+            'clientId' => '685441796685-uscdp0t75t3okc698g9vrd4a14v5m0n7.apps.googleusercontent.com',
+            'clientSecret' => 'VcBy5TzXAouaiSGsiPw5G_KX',
+            'refreshToken' => '1/tkZKO38r01IFB3LEGMpZHNT-OnkEBC09dmIOodKW3Wtkw4cp5VnxiTZv2w0k7K33',
+            'folderId' => '0B9Yv9Zbq4BWHTThLczM2MGhWbGs',
+        ],
+        
 
     ],
 
